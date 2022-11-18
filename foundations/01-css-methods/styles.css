@@ -1,4 +1,19 @@
-div: a red background, white text, a font size of 32px, center aligned, and bold
+div {
+    background-color: red;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+/* } Verify valid code */
+
+p {
+    background-color: green;
+    color: white;
+    font-size: 18px
+    /* } Verify valid code */
+
+}
+a red background, white text, a font size of 32px, center aligned, and bold
 
 p: a green background, white text, and a font size of 18px
 
