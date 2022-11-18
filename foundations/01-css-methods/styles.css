@@ -4,18 +4,23 @@ div {
     font-size: 32px;
     font-weight: bold;
     text-align: center;
-/* } Verify valid code */
+} /* } Verify valid code */
 
 p {
     background-color: green;
     color: white;
     font-size: 18px
-    /* } Verify valid code */
+    
+} /* } Verify valid code */
 
-}
-a red background, white text, a font size of 32px, center aligned, and bold
+.button {
+    background-color: orange;
+    font-size: 18px;
+} /* } Verify valid code */
 
-p: a green background, white text, and a font size of 18px
+/* a red background, white text, a font size of 32px, center aligned, and bold */
 
-button: an orange background and a font size of 18px
+/* p: a green background, white text, and a font size of 18px */
+
+/* button: an orange background and a font size of 18px */
 
