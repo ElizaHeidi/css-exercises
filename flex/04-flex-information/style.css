@@ -2,7 +2,13 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
-
+.master {
+  display: flex;
+    align-content: center;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+}
 
 .title {
   font-size: 36px;
@@ -17,7 +23,7 @@ body {
 
 .img-parent {
 display: flex;
-justify-content: center;
+    justify-content: space-around;
     align-content: center;
     flex-direction: row;
     align-items: center;
@@ -29,28 +35,48 @@ justify-content: center;
   width: 100px;
   height: 100px;
   display: flex;
-  flex: auto;
+  flex: 1;
+  flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+  margin: 52px;
 }
 
 .img-2 {
   width: 100px;
   height: 100px;
   display: flex;
-  flex: auto;
+  flex: 1;
+  flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+  margin: 52px;
 }
 
 .img-3 {
   width: 100px;
   height: 100px;
   display: flex;
-  flex: auto;
+  flex: 1;
+  flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+  margin: 52px;
 }
 
 .img-4 {
   width: 100px;
   height: 100px;
   display: flex;
-  flex: auto;
+  flex: 1;
+  flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+  margin: 52px;
 }
 
 /* do not edit this footer */
