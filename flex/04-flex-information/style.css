@@ -2,10 +2,7 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
-img {
-  width: 100px;
-  height: 100px;
-}
+
 
 .title {
   font-size: 36px;
@@ -26,6 +23,34 @@ justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
     margin: 8px;
+}
+
+.img-1 {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex: auto;
+}
+
+.img-2 {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex: auto;
+}
+
+.img-3 {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex: auto;
+}
+
+.img-4 {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex: auto;
 }
 
 /* do not edit this footer */
