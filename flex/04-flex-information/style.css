@@ -1,82 +1,23 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
-.master {
-  display: flex;
-    align-content: center;
-    align-items: stretch;
-    justify-content: center;
-    flex-direction: column;
+img {
+  width: 100px;
+  height: 100px;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
-  display: flex;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+  margin-bottom: 32px;
 }
 
-.img-parent {
+.container {
 display: flex;
-    justify-content: space-around;
-    align-content: center;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: nowrap;
-    margin: 8px;
-}
-
-.img-1 {
-  width: 100px;
-  height: 100px;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: stretch;
-  margin: 52px;
-}
-
-.img-2 {
-  width: 100px;
-  height: 100px;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: stretch;
-  margin: 52px;
-}
-
-.img-3 {
-  width: 100px;
-  height: 100px;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: stretch;
-  margin: 52px;
-}
-
-.img-4 {
-  width: 100px;
-  height: 100px;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: stretch;
-  margin: 52px;
+  justify-content: center;
+  gap: 52px;
 }
 
 /* do not edit this footer */
