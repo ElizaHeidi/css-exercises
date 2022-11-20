@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+* {
+  border: 1px solid red;
+  }
+
 body {
   height: 100vh;
   margin: 0;
@@ -14,8 +18,28 @@ body {
   flex-direction: row;
 }
 
+.ul {
+list-style-type: none;
+
+}
+
+.left-links {
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  list-style-type: none;
+}
+
+.right-links {
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  list-style-type: none;
+}
+
 img {
   width: 600px;
+  display: flex;
 }
 
 button {
